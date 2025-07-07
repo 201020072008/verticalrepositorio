@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f4f9fd;
+}
+
+.sticky-menu {
+  position: sticky;
+  top: 0;
+  background-color: #347fc4;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #ffeb3b;
+}
+
+main {
+  padding: 100px 20px 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h1, h2, h3 {
+  color: #2a4d69;
+}
